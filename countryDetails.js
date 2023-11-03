@@ -19,10 +19,11 @@ XHR.onreadystatechange = function () {
       } else {
         console.log('Flag: N/A');
       }
-      console.log('---'); // Separation between countries
+      console.log('-------------------------------------------------------'); // Separation between countries
     });
   }
 };
 
 XHR.open('GET', 'https://restcountries.com/v3.1/all');
 XHR.send();
+
