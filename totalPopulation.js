@@ -1,5 +1,5 @@
 /*Solving problems using array functions on rest countries data (https://restcountries.com/v3.1/all).
-Print the total population of countries using reduce function*/
+d. Print the total population of countries using reduce function*/
 
 const XHR = new XMLHttpRequest();
 
